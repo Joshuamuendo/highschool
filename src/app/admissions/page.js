@@ -48,8 +48,12 @@ export default function Admissions() {
           <h2 className="text-2xl font-semibold mb-2">Application Forms and Documents</h2>
           <p className="text-gray-700">Download the necessary application forms and documents below:</p>
           <ul className="list-disc pl-8 text-gray-700">
-            {/* <li><Link href="/application-form"><a className="text-blue-600 hover:underline">Application Form</a></Link></li>
-            <li><Link href="/admissions-guidelines"><a className="text-blue-600 hover:underline">Admissions Guidelines</a></Link></li> */}
+            <li><Link href="admissions/application-form" passHref
+    className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+      Application Form
+    
+  </Link></li>
+            <li><Link href="admissions/admissions-guidelines"className="text-blue-600 hover:underline">Admissions Guidelines</Link></li> 
             {/* Include links to other documents as needed */}
           </ul>
         </section>
